@@ -1,0 +1,350 @@
+body{
+	margin: 0;
+}
+
+.container {
+    margin: auto 0px;
+}
+
+
+.logo{
+    position: absolute;
+    left: 150px;
+    margin-top: 20px;
+    font-size: 48px;
+    font-family: 'Barkentina';
+    z-index: 3;
+    color: #fff;
+}
+
+
+.headerText{
+    display: flex;
+    position: absolute;
+    color: rgb(255, 255, 255, 0.750);
+    margin-top: 35px;
+    margin-left: 780px;
+    font-family: 'PT Serif', serif;
+    font-size: 26px;
+    z-index: 3;
+}
+
+.headerText a{
+    text-decoration: none;
+    margin-left: 60px;
+    color: rgb(255, 255, 255, 0.750);
+}
+
+.headerText a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.mainImage{
+    background-repeat: no-repeat;
+	background-image: url(image/pic.jpg);
+	height: 100vh;
+	background-size: cover;
+    filter: brightness(0.6) blur(0.8px);
+    z-index: 1;
+}
+
+.textMain{
+    position: absolute;
+    text-align: center;
+    margin-top: -530px;
+    left: 300px;
+    font-size: 48px;
+    font-family: 'Barkentina';
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255, 0.6);
+    z-index: 2;
+    
+}
+
+.textMainTwo{
+    position: absolute;
+    text-align: center;
+    margin-top: -475px;
+    left: 320px;
+    font-size: 38px;
+    font-family: 'Barkentina';
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+
+.cardMain{
+    position: absolute;
+    margin-top: -600px;
+    left: 1260px;
+    background: rgb(255, 255, 255, 0.850);
+    padding: 180px 200px;
+    z-index: 3;
+}
+
+.cardText{
+    position: absolute;
+    margin-top: -140px;
+    right: 50px;
+    left: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Barkentina';
+}
+
+.inputName{
+    position: absolute;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 20px 140px 20px 20px;
+    background-color: rgb(214, 214, 214);
+    margin-left: -165px;
+    margin-top: -50px
+}
+
+.inputTel{
+    position: absolute;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 20px 140px 20px 20px;
+    background-color: rgb(214, 214, 214);
+    margin-left: -165px;
+    margin-top: 20px
+}
+
+.btnCard{
+    position: absolute;
+    background: red;
+    padding: 20px 80px;
+    border-radius: 60px;
+    margin-top: 100px;
+    right: 60px;
+}
+
+.btnText{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Barkentina';
+    color: black;
+}
+
+.btnCard:hover{
+    background: rgb(244, 93, 93);
+    cursor: pointer;
+}
+
+
+.abonements{
+    padding: 100px;
+}
+
+.cards{
+    margin-left: 55px;
+    background-color: rgb(214, 214, 214);
+    padding: 380px 800px;
+}
+
+.cardOne{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    padding: 240px 200px;
+    margin-top: -230px;
+    margin-left: -700px;
+
+}
+
+.cardTwo{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    padding: 240px 200px;
+    margin-top: -230px;
+    margin-left: -200px;
+}
+
+.cardThree{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    padding: 240px 200px;
+    margin-top: -230px;
+    margin-left: 300px;
+}
+
+/*Card One */
+
+.textCardOne{
+    position: absolute;
+    background-color: rgba(238, 237, 236, 0.7);
+    margin-top: -210px;
+    margin-left: -69px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Barkentina';
+}
+
+.priceOne{
+    position: absolute;
+    font-size: 32px;
+    font-family: 'Barkentina';
+    color: #ffffff;
+    left: 34px;
+    top: 40px;
+}
+
+.textInfo{
+    position: absolute;
+    top: 230px;
+    right: 130px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Barkentina';
+}
+
+.circle{
+    position: absolute;
+    background: black;
+    border-radius: 100%;
+    top: 80px;
+    right: 125px;
+    height: 25%;
+    width: 30%;
+}
+
+.btnBuy{
+    position: absolute;
+    font-family: 'Barkentina';
+    font-size: 24px;
+    top: 310px;
+    left: -40px;
+    color: #fff;
+    background: rgb(0, 0, 0);
+    padding: 20px 40px;
+    border-radius: 100px;
+}
+
+.btnBuy:hover{
+    background-color: #ff0000;
+    transition: 800ms;
+}
+
+/*Card Two */
+
+.textCardTwo{
+    position: absolute;
+    background-color: rgba(238, 237, 236, 0.7);
+    margin-top: -210px;
+    margin-left: -42px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Barkentina';
+}
+
+.priceTwo{
+    position: absolute;
+    font-size: 32px;
+    font-family: 'Barkentina';
+    color: #ffffff;
+    left: 34px;
+    top: 40px;
+}
+
+.textInfoTwo{
+    position: absolute;
+    top: 230px;
+    right: 55px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Barkentina';
+}
+
+.circleTwo{
+    position: absolute;
+    background: black;
+    border-radius: 100%;
+    top: 80px;
+    right: 125px;
+    height: 25%;
+    width: 30%;
+}
+
+.btnBuyTwo{
+    position: absolute;
+    font-family: 'Barkentina';
+    font-size: 24px;
+    top: 310px;
+    left: -40px;
+    color: #fff;
+    background: rgb(0, 0, 0);
+    padding: 20px 40px;
+    border-radius: 100px;
+}
+
+.btnBuyTwo:hover{
+    background-color: #ff0000;
+    transition: 800ms;
+}
+
+/*Card Three */
+
+.textCardThree{
+    position: absolute;
+    background-color: rgba(238, 237, 236, 0.7);
+    margin-top: -210px;
+    margin-left: -22px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Barkentina';
+}
+
+.priceThree{
+    position: absolute;
+    font-size: 32px;
+    font-family: 'Barkentina';
+    color: #ffffff;
+    left: 28px;
+    top: 40px;
+}
+
+.textInfoThree{
+    position: absolute;
+    top: 230px;
+    right: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Barkentina';
+}
+
+.circleThree{
+    position: absolute;
+    background: black;
+    border-radius: 100%;
+    top: 80px;
+    right: 125px;
+    height: 25%;
+    width: 30%;
+}
+
+.btnBuyThree{
+    position: absolute;
+    font-family: 'Barkentina';
+    font-size: 24px;
+    top: 310px;
+    left: -40px;
+    color: #fff;
+    background: rgb(0, 0, 0);
+    padding: 20px 40px;
+    border-radius: 100px;
+}
+
+.btnBuyThree:hover{
+    background-color: #ff0000;
+    transition: 800ms;
+}
+
+@font-face {
+    font-family: 'Barkentina';
+    src: url(fonts/Barkentina.otf);
+}
